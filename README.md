@@ -1,12 +1,8 @@
-<h1 align="center">Hi, I'm Musa Misto 👋</h1>
+<h1 align="center">Musa Misto</h1>
 
 <p align="center">
-  <strong>Associate DevOps Engineer @ Simplify9</strong> &nbsp;·&nbsp; full-stack &amp; systems builder
-</p>
-
-<p align="center">
-  I ship cloud-native infrastructure by day and build games, web apps, and tools the rest of the time.<br>
-  Kubernetes &amp; CI/CD in production — TypeScript, Java, and Python everywhere else.
+  Associate DevOps Engineer at Simplify9. I work on cloud infrastructure and CI/CD,<br>
+  and build web apps, games, and tools outside of it.
 </p>
 
 <p align="center">
@@ -20,32 +16,25 @@
 
 ---
 
-## 👨‍💻 About me
+## About
 
-I'm a Computer Science &amp; Engineering graduate (Sabancı University, Istanbul) and a self-taught engineer since the age of 13 — I started by running and coding my own multiplayer game servers, and never stopped building.
+Computer Science graduate (Sabancı University) working in DevOps. I've been writing code and running servers since I was a teenager, starting with self-hosted multiplayer game servers, and I've stayed a generalist since: comfortable across infrastructure, backend, frontend, and a fair amount of 3D and machine learning.
 
-Today I work as a DevOps engineer, but I'm a generalist at heart: I'm just as comfortable migrating production Kubernetes infrastructure as I am writing a browser voxel engine, a headless-CMS storefront, or a machine-learning pipeline. I care about reproducibility, clean interfaces, and shipping things that actually run.
+- Currently working on infrastructure modernization and CI/CD at Simplify9
+- Happy to talk about Kubernetes, GitHub Actions, Three.js, or self-hosting
+- Reach me on [LinkedIn](https://www.linkedin.com/in/musamisto)
 
-- 🔭 **Currently:** modernizing cloud infrastructure and CI/CD at Simplify9
-- 🌱 **Exploring:** procedural generation, real-time 3D in the browser, and platform engineering
-- 💬 **Ask me about:** Kubernetes &amp; Gateway API, GitHub Actions, Three.js, or self-hosting anything
-- 📫 **Reach me:** via [LinkedIn](https://www.linkedin.com/in/musamisto)
+## Work
 
----
+At Simplify9 I focus on infrastructure and CI/CD:
 
-## 🚀 What I'm working on now
+- Led an org-wide migration from end-of-life `ingress-nginx` to the Kubernetes Gateway API across 13+ production projects, using a custom Helm chart and a reusable GitHub Actions deployment template.
+- Migrated 17 repositories from Azure DevOps Pipelines to GitHub Actions with reusable, environment-aware workflows covering backend services and iOS/Android apps.
+- Built signed-build pipelines for iOS and Android mobile projects.
+- Provisioned and hardened Linux VMs and moved client infrastructure onto isolated DigitalOcean accounts (PostgreSQL restores, S3-compatible storage replication with `rclone`).
+- Set up Prometheus and Grafana monitoring for cluster health.
 
-At **Simplify9**, I focus on infrastructure modernization and CI/CD across the engineering org:
-
-- **Led an org-wide migration** from end-of-life `ingress-nginx` to the **Kubernetes Gateway API** across 13+ production projects — authoring a custom Helm chart and a reusable GitHub Actions deployment template to align with current CNCF standards.
-- **Migrated 17 repositories** from Azure DevOps Pipelines to **GitHub Actions**, building reusable workflows with branch-, environment-, and project-specific logic across backend services and iOS/Android apps.
-- **Authored signed-build pipelines** for iOS &amp; Android mobile projects with conditional logic and secrets-driven configuration.
-- **Provisioned &amp; hardened Linux VMs** and migrated client infrastructure onto isolated DigitalOcean accounts (PostgreSQL restores, S3-compatible object storage replication via `rclone`).
-- **Monitored cluster health** with Prometheus &amp; Grafana to catch issues before they reached users.
-
----
-
-## 🛠️ Tech stack
+## Stack
 
 **Cloud &amp; DevOps**
 
@@ -92,38 +81,25 @@ At **Simplify9**, I focus on infrastructure modernization and CI/CD across the e
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
----
+## Projects
 
-## 📌 Featured projects
-
-| Project | What it is | Stack |
+| Project | Description | Stack |
 | --- | --- | --- |
-| **[claudecraft](https://github.com/MusaMisto/claudecraft)** | An original browser-based creative voxel sandbox — procedural seed-based worlds, chunk streaming, biomes, passive mobs, and generated structures. Includes an automated in-browser verification harness. | `TypeScript` · `Three.js` · `Vite` |
-| **[FraudDetectionSystem](https://github.com/MusaMisto/FraudDetectionSystem)** | ML pipeline for transaction fraud detection — SMOTE/undersampling, multi-model evaluation, and a FastAPI scoring service. Improved best F1 from 0.81 → 0.98. | `Python` · `scikit-learn` · `FastAPI` |
-| **[Instagram Influencer Analysis](https://github.com/MusaMisto/InstagramInfluencersAnalysis-CS412)** | Multi-class classification + regression on social-media data, with TF-IDF/NLP feature engineering on imbalanced datasets. | `Python` · `NLP` · `Jupyter` |
-| **[WebGL Graphics](https://github.com/MusaMisto/solar-system-webgl-CS405)** | A scene-graph solar-system renderer and [OBJ viewer](https://github.com/MusaMisto/webgl-obj-viewer-CS405) — hierarchical TRS transforms, OBJ parsing, and Phong lighting from scratch. | `WebGL` · `JavaScript` |
-| **[CraftableCore](https://github.com/MusaMisto/craftable-core-plugin)** &amp; **[SkyblockCore](https://github.com/MusaMisto/craftable-skyblock-core-plugin)** | Custom event-driven Minecraft (Spigot) plugins — economy systems, staff tooling, permission tracks, GUIs, and integrations with LuckPerms, EssentialsX &amp; mcMMO. | `Java` · `Bukkit/Spigot` |
+| **[claudecraft](https://github.com/MusaMisto/claudecraft)** | A browser-based creative voxel sandbox. Procedural seed-based worlds, chunk streaming, biomes, passive mobs, and generated structures, with an automated in-browser test harness. | `TypeScript` · `Three.js` · `Vite` |
+| **[FraudDetectionSystem](https://github.com/MusaMisto/FraudDetectionSystem)** | Transaction fraud detection. SMOTE/undersampling, multi-model evaluation, and a FastAPI scoring service. Best F1 improved from 0.81 to 0.98. | `Python` · `scikit-learn` · `FastAPI` |
+| **[Instagram Influencer Analysis](https://github.com/MusaMisto/InstagramInfluencersAnalysis-CS412)** | Multi-class classification and regression on social-media data, with TF-IDF/NLP features on imbalanced datasets. | `Python` · `NLP` · `Jupyter` |
+| **[WebGL Graphics](https://github.com/MusaMisto/solar-system-webgl-CS405)** | A scene-graph solar-system renderer and an [OBJ viewer](https://github.com/MusaMisto/webgl-obj-viewer-CS405): hierarchical transforms, OBJ parsing, and Phong lighting written from scratch. | `WebGL` · `JavaScript` |
+| **[CraftableCore](https://github.com/MusaMisto/craftable-core-plugin)** &amp; **[SkyblockCore](https://github.com/MusaMisto/craftable-skyblock-core-plugin)** | Custom Minecraft (Spigot) plugins: economy, staff tooling, permissions, GUIs, and integrations with LuckPerms, EssentialsX, and mcMMO. | `Java` · `Bukkit/Spigot` |
 
-> 🔒 **Also in the workshop (private):** *MonyMilk* — a full-stack content/e-commerce platform built on **Next.js 16 + React 19** with a **Strapi 5** headless CMS backend, internationalization, and a fully modeled content schema.
+I also have a private full-stack project, *MonyMilk*: a content/e-commerce site built on Next.js 16 and React 19 with a Strapi 5 headless CMS backend and internationalization.
 
----
+## Background
 
-## 🎮 Beyond code
+Before the job title there was Craftable, a Minecraft network I built and ran from 2016 to 2023, starting at 13. It grew into a self-hosted setup with 130+ concurrent players at around 98.7% uptime, with custom Java plugins, JVM and performance tuning, a XenForo forum, and an in-game economy. It's where I picked up Linux, server operations, and software design before any of it was coursework.
 
-Long before the professional title, there was **Craftable** — a Minecraft network I built and ran from **2016 through 2023**, starting at age 13. It grew into a self-hosted, production-grade platform sustaining **130+ concurrent players at 98.7% uptime**, complete with custom Java plugins, JVM/performance tuning, a XenForo community forum, and an in-game economy. It's where I learned Linux, server operations, software design, and community management the hard way — by being the only one who could fix it at 2 a.m. That instinct for owning a system end-to-end is still how I work today.
-
----
-
-## 📊 GitHub stats
+## Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MusaMisto&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="Musa's GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MusaMisto&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub stats">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MusaMisto&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Most used languages">
-</p>
-
----
-
-<p align="center">
-  <em>Open to interesting problems in DevOps, platform engineering, and full-stack development.</em><br>
-  <a href="https://www.linkedin.com/in/musamisto">Let's connect on LinkedIn →</a>
 </p>
