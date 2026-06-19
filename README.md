@@ -28,7 +28,7 @@ Computer Science graduate (Sabancı University) working in DevOps. I've been wri
 
 At Simplify9 I focus on infrastructure and CI/CD:
 
-- Led an org-wide migration from end-of-life `ingress-nginx` to the Kubernetes Gateway API across 13+ production projects, using a custom Helm chart and a reusable GitHub Actions deployment template.
+- Led an org-wide migration from end-of-life `ingress-nginx` to the Kubernetes Gateway API across 13+ production projects, using custom Helm charts and reusable GitHub Actions deployment templates.
 - Migrated 17 repositories from Azure DevOps Pipelines to GitHub Actions with reusable, environment-aware workflows covering backend services and iOS/Android apps.
 - Built signed-build pipelines for iOS and Android mobile projects.
 - Provisioned and hardened Linux VMs and moved client infrastructure onto isolated DigitalOcean accounts (PostgreSQL restores, S3-compatible storage replication with `rclone`).
